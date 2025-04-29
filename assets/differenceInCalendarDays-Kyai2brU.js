@@ -1,0 +1,1 @@
+import{t as D,n as d,g as s,d as u}from"./normalizeDates-D28e74vf.js";function l(t,a){const e=D(t,a==null?void 0:a.in);return e.setHours(0,0,0,0),e}function O(t,a,e){const[c,f]=d(e==null?void 0:e.in,t,a),r=l(c),n=l(f),i=+r-s(r),m=+n-s(n);return Math.round((i-m)/u)}export{O as d};
